@@ -43,8 +43,7 @@ GRLIB_arsenal_weapons = [
 	"CUP_arifle_MG36A_camo",
 	"CUP_hgun_Glock17",
 	"CUP_hgun_Glock17_blk",
-	"CUP_hgun_Glock17_tan"
-	
+	"CUP_hgun_Glock17_tan"	
 ];
 
 GRLIB_arsenal_magazines = [
@@ -52,7 +51,7 @@ GRLIB_arsenal_magazines = [
 ];
 
 GRLIB_arsenal_items = [
-	"BWA3_optic_RSAS",
+	/* "BWA3_optic_RSAS",
 	"BWA3_optic_Aimpoint",
 	"BWA3_optic_EOTech",
 	"BWA3_optic_EOTech_tan",
@@ -79,8 +78,20 @@ GRLIB_arsenal_items = [
 	"BWA3_Uniform_Ghilie_Tropen",
 	"BWA3_Uniform_Fleck",
 	"BWA3_Uniform2_Fleck",
-	"",
-	
+	"BWA3_Uniform_Tropen",
+	"BWA3_Uniform2_Tropen",
+	"BWA3_Uniform_Ghilie_idz_Fleck",
+	"BWA3_Uniform_Ghilie_idz_Tropen",
+	"BWA3_Uniform_idz_Fleck",
+	"BWA3_Uniform2_idz_Fleck",
+	"BWA3_Uniform3_idz_Fleck",
+	"BWA3_Uniform_idz_Tropen",
+	"BWA3_Uniform2_idz_Tropen",
+	"BWA3_Uniform3_idz_Tropen",
+	"CUP_U_B_GER_Flecktarn_2",
+	"CUP_U_B_GER_Tropentarn_2",
+	"CUP_U_B_GER_Flecktarn_1",
+	"CUP_U_B_GER_Tropentarn_1",	
 	"BWA3_acc_LLM01_irlaser",
 	"BWA3_acc_LLM01_flash",
 	"BWA3_acc_LLM01_laser",
@@ -108,10 +119,26 @@ GRLIB_arsenal_items = [
 	"BWA3_Vest_JPC_Leader_Fleck",
 	"BWA3_Vest_JPC_Radioman_Tropen",
 	"BWA3_Vest_JPC_Rifleman_Tropen",
-	"BWA3_Vest_JPC_Leader_Tropen",
+	"BWA3_Vest_JPC_Leader_Tropen", */
 ];
 
 GRLIB_arsenal_backpacks = [
+	/* "BWA3_AssaultPack_Fleck",
+	"BWA3_AssaultPack_Tropen",
+	"BWA3_Carryall_Fleck",
+	"BWA3_Carryall_Tropen",
+	"BWA3_Carryall_Fleck",
+	"BWA3_Carryall_Tropen",
+	"BWA3_Kitbag_Fleck",
+	"BWA3_Kitbag_Fleck_Medic",
+	"BWA3_Kitbag_Tropen",
+	"BWA3_Kitbag_Tropen_Medic",	
+	"BWA3_PatrolPack_Fleck",
+	"BWA3_PatrolPack_Tropen",	
+	"BWA3_TacticalPack_Fleck",
+	"BWA3_TacticalPack_Fleck_Medic",
+	"BWA3_TacticalPack_Tropen",
+	"BWA3_TacticalPack_Tropen_Medic", */
 
 
 ];
