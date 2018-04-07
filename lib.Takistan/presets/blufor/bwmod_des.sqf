@@ -12,7 +12,7 @@ Optional Mods:
 Each of these should be unique, the same classnames for different purposes may cause various unpredictable issues with player actions. Or not, just don't try!	*/
 FOB_typename = "Land_Cargo_HQ_V3_F";									// This is the main FOB HQ building. 																									Default is "Land_Cargo_HQ_V1_F".
 FOB_box_typename = "B_Slingload_01_Cargo_F";							// This is the FOB as a container. 																										Default is "B_Slingload_01_Cargo_F".
-FOB_truck_typename = "CUP_B_LAB25_HQ_desert_USMC";						// This is the FOB as a vehicle.																										Default is "B_Truck_01_box_F".
+FOB_truck_typename = "CUP_B_LAV25_HQ_desert_USMC";						// This is the FOB as a vehicle.																										Default is "B_Truck_01_box_F".
 Arsenal_typename = "B_supplyCrate_F";									// This is the virtual arsenal as portable supply crates.  																				Default is "B_supplyCrate_F".
 Respawn_truck_typename = "CUP_B_LR_Ambulance_GB_D";						// This is the mobile respawn (and medical) truck. 																						Default is "B_Truck_01_medical_F".
 huron_typename = "CUP_B_CH54E_GER";										// This is Spartan 01, a multipurpose mobile respawn as a helicopter. 																	Default is "B_Heli_Transport_03_unarmed_F".
@@ -58,33 +58,26 @@ infantry_units = [
 	["BWA3_SniperG82_Tropen",70,5,0],									//Sniper
 	["BWA3_Spotter_Tropen",20,0,0],										//Spotter
 	["BWA3_Crew_Tropen",10,0,0],										//Crewman
-	["rhsusf_army_ocp_rifleman_101st",20,0,0],							//Para Trooper
 	["BWA3_Helipilot",10,0,0],											//Helicopter Pilot
-	["rhsusf_airforce_jetpilot",10,0,0]									//Pilot
 ];
 
 light_vehicles = [
+	["CUP_C_Golf4_kitty_Civ",50,0,25],
+	["CUP_C_Golf4_camo_Civ",50,0,25],
+	["CUP_C_SUV_TK",75,0,25],
 	["B_Quadbike_01_F",50,0,25],
 	["CUP_B_Dingo_GER_Des",80,0,25],					//Dingo 2 (MG) (Desert)
 	["CUP_B_Dingo_GL_GER_Des",80,0,25],					//Dingo 2 (GL) (Desert)	//Quad Bike
 	["BWA3_Eagle_Tropen",100,0,50],										//Eagle IV
 	["BWA3_Eagle_FLW100_Tropen",100,100,50],							//Eagle IV (FLW 100)
-	["B_UGV_01_F",150,0,50],											//UGV Stomper
-	["B_UGV_01_rcws_F",150,40,50],										//UGV Stomper (RCWS)
-	["B_Boat_Transport_01_F",100,0,25],									//Assault Boat
-	["B_Boat_Armed_01_minigun_F",200,80,75],							//Speedboat Minigun
 	["B_Truck_01_transport_F",100,0,30],				//HEMTT Transport
 	["B_Truck_01_covered_F",50,0,20],					//HEMTT Transport (Covered)
-	["B_Boat_Transport_01_F",20,0,5],					//Assault Boat
-	["B_SDV_01_F",150,0,50],											//SDV
-	["CUP_B_RHIB2Turret_USMC",150,50,50],
 	["B_G_Van_02_vehicle_F",100,0,50],
 	["B_G_Van_02_transport_F",100,0,50],
-	["CUP_B_RHIB_USMC",150,50,50]
 ];
 
 heavy_vehicles = [
-	["CUP_B_M270_DPICM_USA",200,40,100],
+	["CUP_B_LAV25M240_desert_USMC",135,40,40],				//LAV-25A1 (M240)
 	["CUP_B_M270_HE_USA",200,40,100],
 	["BWA3_Puma_Tropen",300,225,150],									//IFV Puma
 	["BWA3_Leopard2A6M_Tropen",500,400,250],							//MBT Leopard 2A6M
@@ -98,8 +91,11 @@ air_vehicles = [
 	["BWA3_Tiger_Gunpod_Pars",750,750,250],							//UH Tiger RMK (Universal)
 	["BWA3_Tiger_Gunpod_Heavy",750,750,250],							//UH Tiger RMK (Universal)
 	["BWA3_Tiger_Gunpod_Heavy",750,750,250],							//UH Tiger RMK (Universal)
+	["CUP_B_AH1Z_Dynamic_USMC",400,200,300],
 	["CUP_B_UH1D_GER_KSK_Des",0,0,0],
-	["CUP_B_CH54E_GER",300,0,175]										//CH-53E Super Stallion
+	["CUP_B_CH53E_GER",300,0,175],										//CH-53E Super Stallion
+	["CUP_B_USMC_DYN_MQ9",0,0,0]
+	["CUP_B_GR9_DYN_GB",350,200,270]
 ];
 
 static_vehicles = [
@@ -208,6 +204,9 @@ support_vehicles = [
 	["CUP_B_T81D_Reammo_CZ_DES",300,0,100],
 	["CUP_B_T81D_Refuel_CZ_DES",300,100,0],
 	["CUP_B_T81D_Repair_CZ_DES",200,100,100],
+	["CUP_B_MTVR_Repair_USA",325,0,75],									//MTVR Repair
+	["CUP_B_MTVR_Refuel_USA",125,0,275],								//MTVR Fuel
+	["CUP_B_MTVR_Ammo_USA",125,200,75]									//MTVR Ammo
 	["B_Slingload_01_Repair_F",275,0,0],								//Huron Repair
 	["B_Slingload_01_Fuel_F",75,0,200],									//Huron Fuel
 	["B_Slingload_01_Ammo_F",75,200,0]									//Huron Ammo
@@ -296,13 +295,9 @@ blufor_squad_para = [
 
 // Elite vehicles that should be unlocked through military base capture.
 elite_vehicles = [
-	"BWA3_Leopard2A6M_Tropen",											//MBT Leopard 2A6M														//AH-64D (Multi-Role)
-	"BWA3_Tiger_RMK_Universal",											//UH Tiger RMK (Universal)
-	"BWA3_Tiger_RMK_Universal",							//UH Tiger RMK (Universal)
-	"BWA3_Tiger_RMK_PARS",						//UH Tiger RMK (Universal)
-	"BWA3_Tiger_RMK_Heavy",						//UH Tiger RMK (Universal)
-	"BWA3_Tiger_RMK_FZ",							//UH Tiger RMK (Universal)
-	"BWA3_Tiger_Gunpod_Pars"						//UH Tiger RMK (Universal)
-	"BWA3_Tiger_Gunpod_Heavy"							//UH Tiger RMK (Universal)
-	"BWA3_Tiger_Gunpod_Heavy"
+	"BWA3_Leopard2A6M_Tropen",											//MBT Leopard 2A6M
+	"CUP_B_M270_HE_USA",
+	"CUP_B_AH1Z_Dynamic_USMC",
+	"CUP_B_GR9_DYN_GB",
+	"BWA3_Puma_Tropen"
 ];
