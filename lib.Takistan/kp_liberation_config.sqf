@@ -44,7 +44,7 @@ If you want to change a preset, it's recommended to set all four presets to 0 an
 9 = CUP Woodland
 10 = CUP Desert 
 11 = CUP West (WDL+DSRT) */
-KP_liberation_preset_blufor = 10;
+KP_liberation_preset_blufor = 5;
 
 /* OPFOR preset:
 0 = Custom (default vanilla CSAT)

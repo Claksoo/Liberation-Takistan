@@ -71,16 +71,16 @@ light_vehicles = [
 	["BWA3_Eagle_Tropen",100,0,50],										//Eagle IV
 	["BWA3_Eagle_FLW100_Tropen",100,100,50],							//Eagle IV (FLW 100)
 	["B_Truck_01_transport_F",100,0,30],				//HEMTT Transport
-	["B_Truck_01_covered_F",50,0,20],					//HEMTT Transport (Covered)
-	["B_G_Van_02_vehicle_F",100,0,50],
-	["B_G_Van_02_transport_F",100,0,50],
+	["B_Truck_01_covered_F",100,0,30],					//HEMTT Transport (Covered)
+	["B_G_Van_02_vehicle_F",75,0,40],
+	["B_G_Van_02_transport_F",75,0,40],
 ];
 
 heavy_vehicles = [
-	["CUP_B_LAV25M240_desert_USMC",135,40,40],				//LAV-25A1 (M240)
-	["CUP_B_M270_HE_USA",200,40,100],
-	["BWA3_Puma_Tropen",300,225,150],									//IFV Puma
-	["BWA3_Leopard2A6M_Tropen",500,400,250],							//MBT Leopard 2A6M
+	["CUP_B_LAV25M240_desert_USMC",150,50,50],				//LAV-25A1 (M240)
+	["CUP_B_M270_HE_USA",400,300,150],
+	["BWA3_Puma_Tropen",300,350,100],									//IFV Puma
+	["BWA3_Leopard2A6M_Tropen",500,600,200],							//MBT Leopard 2A6M
 ];
 
 air_vehicles = [
@@ -91,11 +91,11 @@ air_vehicles = [
 	["BWA3_Tiger_Gunpod_Pars",750,750,250],							//UH Tiger RMK (Universal)
 	["BWA3_Tiger_Gunpod_Heavy",750,750,250],							//UH Tiger RMK (Universal)
 	["BWA3_Tiger_Gunpod_Heavy",750,750,250],							//UH Tiger RMK (Universal)
-	["CUP_B_AH1Z_Dynamic_USMC",400,200,300],
-	["CUP_B_UH1D_GER_KSK_Des",0,0,0],
+	["CUP_B_AH1Z_Dynamic_USMC",750,750,250],
+	["CUP_B_UH1D_GER_KSK_Des",200,100,200],
 	["CUP_B_CH53E_GER",300,0,175],										//CH-53E Super Stallion
-	["CUP_B_USMC_DYN_MQ9",0,0,0]
-	["CUP_B_GR9_DYN_GB",350,200,270]
+	["CUP_B_USMC_DYN_MQ9",300,0,100]
+	["CUP_B_GR9_DYN_GB",1000,1000,600]
 ];
 
 static_vehicles = [
