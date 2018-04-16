@@ -58,7 +58,7 @@ infantry_units = [
 	["BWA3_SniperG82_Tropen",70,5,0],									//Sniper
 	["BWA3_Spotter_Tropen",20,0,0],										//Spotter
 	["BWA3_Crew_Tropen",10,0,0],										//Crewman
-	["BWA3_Helipilot",10,0,0],											//Helicopter Pilot
+	["BWA3_Helipilot",10,0,0]											//Helicopter Pilot
 ];
 
 light_vehicles = [
@@ -73,14 +73,14 @@ light_vehicles = [
 	["B_Truck_01_transport_F",100,0,30],				//HEMTT Transport
 	["B_Truck_01_covered_F",100,0,30],					//HEMTT Transport (Covered)
 	["B_G_Van_02_vehicle_F",75,0,40],
-	["B_G_Van_02_transport_F",75,0,40],
+	["B_G_Van_02_transport_F",75,0,40]
 ];
 
 heavy_vehicles = [
 	["CUP_B_LAV25M240_desert_USMC",150,50,50],				//LAV-25A1 (M240)
 	["CUP_B_M270_HE_USA",400,300,150],
 	["BWA3_Puma_Tropen",300,350,100],									//IFV Puma
-	["BWA3_Leopard2A6M_Tropen",500,600,200],							//MBT Leopard 2A6M
+	["BWA3_Leopard2A6M_Tropen",500,600,200]							//MBT Leopard 2A6M
 ];
 
 air_vehicles = [
@@ -94,7 +94,7 @@ air_vehicles = [
 	["CUP_B_AH1Z_Dynamic_USMC",750,750,250],
 	["CUP_B_UH1D_GER_KSK_Des",200,100,200],
 	["CUP_B_CH53E_GER",300,0,175],										//CH-53E Super Stallion
-	["CUP_B_USMC_DYN_MQ9",300,0,100]
+	["CUP_B_USMC_DYN_MQ9",300,0,100],
 	["CUP_B_GR9_DYN_GB",1000,1000,600]
 ];
 
@@ -206,7 +206,7 @@ support_vehicles = [
 	["CUP_B_T81D_Repair_CZ_DES",200,100,100],
 	["CUP_B_MTVR_Repair_USA",325,0,75],									//MTVR Repair
 	["CUP_B_MTVR_Refuel_USA",125,0,275],								//MTVR Fuel
-	["CUP_B_MTVR_Ammo_USA",125,200,75]									//MTVR Ammo
+	["CUP_B_MTVR_Ammo_USA",125,200,75],									//MTVR Ammo
 	["B_Slingload_01_Repair_F",275,0,0],								//Huron Repair
 	["B_Slingload_01_Fuel_F",75,0,200],									//Huron Fuel
 	["B_Slingload_01_Ammo_F",75,200,0]									//Huron Ammo
