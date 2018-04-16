@@ -100,7 +100,7 @@ air_vehicles = [
 
 static_vehicles = [
 	["CUP_B_M119_USMC",0,0,0],
-	["CUP_B_M2Static_USMC",0,0,0],
+	["CUP_B_M2StaticMG_USMC",0,0,0],
 	["CUP_B_M252_USMC",0,0,0],
 	["CUP_B_TOW_TriPod_USMC",0,0,0]
 ];
