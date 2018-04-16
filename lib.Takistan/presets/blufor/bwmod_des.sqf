@@ -15,7 +15,7 @@ FOB_box_typename = "B_Slingload_01_Cargo_F";							// This is the FOB as a conta
 FOB_truck_typename = "CUP_B_LAV25_HQ_desert_USMC";						// This is the FOB as a vehicle.																										Default is "B_Truck_01_box_F".
 Arsenal_typename = "B_supplyCrate_F";									// This is the virtual arsenal as portable supply crates.  																				Default is "B_supplyCrate_F".
 Respawn_truck_typename = "CUP_B_LR_Ambulance_GB_D";						// This is the mobile respawn (and medical) truck. 																						Default is "B_Truck_01_medical_F".
-huron_typename = "CUP_B_CH54E_GER";										// This is Spartan 01, a multipurpose mobile respawn as a helicopter. 																	Default is "B_Heli_Transport_03_unarmed_F".
+huron_typename = "CUP_B_CH53E_GER";										// This is Spartan 01, a multipurpose mobile respawn as a helicopter. 																	Default is "B_Heli_Transport_03_unarmed_F".
 crewman_classname = "BWA3_Crew_Tropen";									// This defines the crew for vehicles. 																									Default is "B_crew_F".
 pilot_classname = "BWA3_Helipilot";										// This defines the pilot for helicopters. 																								Default is "B_Helipilot_F".
 KP_liberation_little_bird_classname = "CUP_B_UH1D_GER_KSK_Des";			// These are the little birds which spawn on the Freedom or at Chimera base.															Default is "B_Heli_Light_01_F".
@@ -201,9 +201,9 @@ support_vehicles = [
 	["ACE_Box_82mm_Mo_Illum",50,10,0],
 	["ACE_Wheel",10,0,0],
 	["ACE_Track",10,0,0],
-	["CUP_B_T81D_Reammo_CZ_DES",300,0,100],
-	["CUP_B_T81D_Refuel_CZ_DES",300,100,0],
-	["CUP_B_T81D_Repair_CZ_DES",200,100,100],
+	["CUP_B_T810_Reammo_CZ_DES",300,0,100],
+	["CUP_B_T810_Refuel_CZ_DES",300,100,0],
+	["CUP_B_T810_Repair_CZ_DES",200,100,100],
 	["CUP_B_MTVR_Repair_USA",325,0,75],									//MTVR Repair
 	["CUP_B_MTVR_Refuel_USA",125,0,275],								//MTVR Fuel
 	["CUP_B_MTVR_Ammo_USA",125,200,75],									//MTVR Ammo
